@@ -1,0 +1,41 @@
+{
+  "name": "tron-contracts",
+  "version": "1.0.2",
+  "description": "Solidity smart contracts for the [TRON](https://tron.network) blockchain.",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "bash scripts/migrate.sh"
+  },
+  "originalAuthors": "truffle-box",
+  "authors": [
+    {
+      "name": "Wyatt Evans",
+      "email": "w.evans@tron.network"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@chainlink/contracts": "^0.8.0",
+    "@openzeppelin/contracts": "^5.2.0",
+    "abortcontroller-polyfill": "^1.7.8",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "tronweb": "^6.0.1",
+    "web3": "^4.16.0"
+  },
+  "main": "script.js",
+  "keywords": [],
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tronprotocol/tron-contracts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tronprotocol/tron-contracts/issues"
+  },
+  "homepage": "https://github.com/tronprotocol/tron-contracts#readme"
+}
